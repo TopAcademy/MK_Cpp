@@ -1,7 +1,8 @@
 #include <iostream>
-using std::cout;
+#include "point.hpp"
 
 int main()
 {
-    cout << "Hello CPP" << std::endl;
+    Point p = Point(10, 25);
+    p.show();
 }
